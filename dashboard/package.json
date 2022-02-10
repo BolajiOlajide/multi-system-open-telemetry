@@ -5,6 +5,7 @@
     "author": "BolajiOlajide <25608335+BolajiOlajide@users.noreply.github.com>",
     "license": "MIT",
     "dependencies": {
+        "@opentelemetry/api": "^1.0.4",
         "@opentelemetry/auto-instrumentations-node": "^0.27.3",
         "@opentelemetry/exporter-zipkin": "^1.0.1",
         "@opentelemetry/resources": "^1.0.1",

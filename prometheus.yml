@@ -3,7 +3,7 @@ global:
 
 scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
-  - job_name: 'open-telemetry'
+  - job_name: 'falcon'
 
     static_configs:
-      - targets: ["localhost:9090", "api:9464"]
+      - targets: ["localhost:9090", "movies:3000", "dashboard:3000"]

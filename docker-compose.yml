@@ -12,7 +12,7 @@ services:
   dashboard:
     restart: always
     build:
-      context: ./nginx
+      context: ./dashboard
       dockerfile: Dockerfile
     volumes:
       - /app/node_modules
@@ -21,7 +21,7 @@ services:
   movies:
     restart: always
     build:
-      context: ./nginx
+      context: ./movies
       dockerfile: Dockerfile
     volumes:
       - /app/node_modules
@@ -32,7 +32,8 @@ services:
     depends_on:
       - prometheus
       - zipkin
-      - api
+      - dashboard
+      - movies
     build:
       context: ./nginx
       dockerfile: Dockerfile

@@ -16,7 +16,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - /app/node_modules
-      - .:/app
+      - ./dashboard:/app
 
   movies:
     restart: always
@@ -25,7 +25,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - /app/node_modules
-      - .:/app
+      - ./movies:/app
 
   nginx:
     restart: always

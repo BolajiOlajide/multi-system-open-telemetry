@@ -1,9 +1,11 @@
 const express = require("express");
+const morgan = require("morgan");
+
 const { countAllRequests } = require("./monitoring");
 
 const app = express();
-
 app.use(countAllRequests());
+app.use(morgan("combined"));
 
 const port = 3000;
 

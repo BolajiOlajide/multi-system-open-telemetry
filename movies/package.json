@@ -1,0 +1,8 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:BolajiOlajide/multi-system-open-telemetry.git",
+  "author": "BolajiOlajide <25608335+BolajiOlajide@users.noreply.github.com>",
+  "license": "MIT"
+}

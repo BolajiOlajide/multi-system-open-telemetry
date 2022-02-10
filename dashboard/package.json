@@ -1,0 +1,7 @@
+{
+    "name": "dashboard",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "BolajiOlajide <25608335+BolajiOlajide@users.noreply.github.com>",
+    "license": "MIT"
+  }

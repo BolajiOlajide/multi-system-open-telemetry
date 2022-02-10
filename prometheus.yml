@@ -6,4 +6,4 @@ scrape_configs:
   - job_name: 'falcon'
 
     static_configs:
-      - targets: ["localhost:9090", "movies:3000", "dashboard:3000"]
+      - targets: ["localhost:9090", "movies:3001", "dashboard:3001"]
